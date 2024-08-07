@@ -31,7 +31,7 @@ rho0 = parameters.rho0          # initial density matrix under the diabatic repr
 U = parameters.U                # unitary transformation matrix between the diabatic and adiabatic representations
 w_uv = parameters.w_uv          # energy gaps under the adiabatic representation
 
-# Secular approximation, True or False
+# Secular approximation, True or False (not implemented...)
 SA = False
 parameters.SA = SA
 
@@ -74,9 +74,7 @@ def rk4(f, y0, tt, h, par):
     
     return (k1 + 2 * k2 + 2 * k3 + k4) / 6
 
-# need to implement the correct RK4 algorithm... the other parts are all correct. Ref: Yifan's paper
-# for example, normal RK4 for coherent propagator, special RK4 for TNL-2 propagator. 
-# should be built-in in K-rho
+# need to implement the correct RK4 algorithm.
 
 # ==============================================================================================
 #                                 Propagation and data recording     
