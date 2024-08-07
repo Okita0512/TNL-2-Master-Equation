@@ -1,7 +1,7 @@
 import numpy as np
 
 """
-This file transforms the Hamiltonian to the exciton basis to facilitate the construction of the Redfield tensor
+This file transforms the Hamiltonian to the exciton basis
 
 """
 
