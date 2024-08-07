@@ -1,6 +1,6 @@
 import numpy as np
 
-# ====== Redfield tensor plus the coherent term ======
+# ====== Tensor matrix product of the memory kernel and the RDM ======
 def func(tn, rho_ad, par): 
 
     En = par.En
