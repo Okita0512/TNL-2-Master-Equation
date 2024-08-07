@@ -17,3 +17,5 @@ Disclaimer: this code is far from complete and requires further optimizations. F
 3, This method is theoretically equivalent to the hierarchical equations of motion (HEOM) with only one tier, but numerical discrepancies between them are displayed, could be numerical convergence issues. Need to further explore it. 
 
 If you are interested in further optimizing this code, or seeking for potential collaboration opportunities, please do not hesitate to contact me! 
+
+Update on 08/07/2024 with a tutorial note pdf file. 
