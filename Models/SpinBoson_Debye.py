@@ -1,12 +1,8 @@
 import numpy as np
 from exc_basis import get_u_Omega_uv
 
-"""
-Actually, the Redfield equation faces problems when discretizing the Debye bath, due to the ill behavior of the TCF
-around t -> 0 (which is logarithmic divergent). As a result, the calculated coherence might face numerical issues. 
-The continuous form of the bath spectral density might help? 
+"""One can also use continuous function to represent the memory kernel, which shall be more accurate """
 
-"""
 def coth(x):
     return (1 + np.exp(-2 * x)) / (1 - np.exp(-2 * x))
 
