@@ -19,3 +19,9 @@ Disclaimer: this code is far from complete and requires further optimizations. F
 If you are interested in further optimizing this code, or seeking for potential collaboration opportunities, please do not hesitate to contact me! 
 
 Update on 08/07/2024 with a tutorial note pdf file. 
+
+======================
+
+updated on 02/27/2025:
+
+"SpinBoson_Debye_FFT" in the "Models" file, an FFT approach to obtain smooth TCFs and memory kernels is implemented, which avoids convergence issues in discretization and Poincare recurrence. Comparison between the results from discretization approach and from the FFT approach with respect to Spin Boson Model 19 is also uploaded (test_M19.pdf) in the "Results" file, in which the FFT approach converges better. 
