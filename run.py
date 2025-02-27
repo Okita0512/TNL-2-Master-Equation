@@ -12,6 +12,7 @@ from Methods.TNL_2 import func
 # ====== Specify the model ======
 from Models.SpinBoson_Ohmic import parameters  
 # from Models.SpinBoson_Debye import parameters
+# from Models.SpinBoson_Debye_FFT import parameters
 # from Models.Photon_echo import parameters
 
 # ==============================================================================================
